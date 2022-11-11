@@ -26,6 +26,9 @@ namespace _11___Topics
     //     }
     // }
 
+    enum Day { Mo, Tu, We, Th, Fr, Sa, Su };
+    enum Month { Jan = 1, Feb, Mar, Apr, May, Jun, Jul = 12, Aug, Sep, Okt, Nov, Dec };
+
     internal class Program
     {
         static void Main(string[] args)
@@ -38,6 +41,15 @@ namespace _11___Topics
             // game1.releaseDate = "01.07.2016";
 
             // game1.Display();
+
+            Day fr = Day.Fr;
+            Day su = Day.Su;
+            Day a = Day.Fr;
+            Console.WriteLine(fr == a);
+            Console.WriteLine(Day.Mo);
+            Console.WriteLine((int)Day.Mo);
+            Console.WriteLine((int)Month.Feb);
+            Console.WriteLine((int)Month.Aug);
 
             Console.ReadKey();
         }

@@ -63,6 +63,25 @@ namespace _11___Topics
             // Console.WriteLine("Always positive is: {0}", Math.Abs(-25));
             // Console.WriteLine("Cos of 1 is: {0}", Math.Cos(1));
 
+            // Console.WriteLine("Please enter your question");
+            // Console.ReadLine();
+
+            // Random yesNoMaybe = new Random();
+            // int answerNum;
+            // answerNum = yesNoMaybe.Next(1, 4);
+            // if (answerNum == 1)
+            // {
+            //     Console.WriteLine("Yes");
+            // }
+            // else if (answerNum == 2)
+            // {
+            //     Console.WriteLine("Maybe");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("No");
+            // }
+
             Console.ReadKey();
         }
     }
